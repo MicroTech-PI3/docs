@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "Untitled",
+	"name": "MicroTech",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -17,7 +17,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "Collaboration1",
+			"name": "Send_Whatsapp",
 			"ownedElements": [
 				{
 					"_type": "UMLInteraction",
@@ -3314,7 +3314,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGRSJX2u/aLRXM="
 					},
-					"name": "Role1"
+					"name": "Role1",
+					"type": ""
 				}
 			]
 		},
@@ -3324,7 +3325,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "Collaboration2",
+			"name": "Send_Email",
 			"ownedElements": [
 				{
 					"_type": "UMLInteraction",
@@ -6617,7 +6618,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGRUd2gCwBCfr4="
 					},
-					"name": "Role1"
+					"name": "Role1",
+					"type": ""
 				}
 			]
 		}
