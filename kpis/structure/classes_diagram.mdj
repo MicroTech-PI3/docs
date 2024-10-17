@@ -9875,7 +9875,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -976,
+											"left": -992,
 											"top": -232,
 											"width": 64.32080078125,
 											"height": 13,
@@ -9888,9 +9888,9 @@
 												"$ref": "AAAAAAGSh1UvcwKzcBU="
 											},
 											"font": "Arial;13;1",
-											"left": 1373,
+											"left": 1365,
 											"top": 783,
-											"width": 476.34423828125,
+											"width": 491.521484375,
 											"height": 13,
 											"text": "ISalesProvider"
 										},
@@ -9902,7 +9902,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -976,
+											"left": -992,
 											"top": -232,
 											"width": 73.67724609375,
 											"height": 13,
@@ -9916,16 +9916,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -976,
+											"left": -992,
 											"top": -232,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1368,
+									"left": 1360,
 									"top": 776,
-									"width": 486.34423828125,
+									"width": 501.521484375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGSh1UvcwK0kCo="
@@ -9951,7 +9951,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -512,
+									"left": -520,
 									"top": -144,
 									"width": 10,
 									"height": 10
@@ -9976,18 +9976,18 @@
 												"$ref": "AAAAAAGSh1VyMgVEnno="
 											},
 											"font": "Arial;13;0",
-											"left": 1373,
+											"left": 1365,
 											"top": 806,
-											"width": 476.34423828125,
+											"width": 491.521484375,
 											"height": 13,
-											"text": "+findAll(iMonth: number, fMonth: number, iYear: number, fMonth: number): number",
+											"text": "+findAll(iMonth: number, fMonth: number, iYear: number, fMonth: number): Sales[0..*]",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1368,
+									"left": 1360,
 									"top": 801,
-									"width": 486.34423828125,
+									"width": 501.521484375,
 									"height": 23
 								},
 								{
@@ -10001,7 +10001,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -512,
+									"left": -520,
 									"top": -144,
 									"width": 10,
 									"height": 10
@@ -10017,7 +10017,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -512,
+									"left": -520,
 									"top": -144,
 									"width": 10,
 									"height": 10
@@ -10025,9 +10025,9 @@
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1368,
+							"left": 1360,
 							"top": 752,
-							"width": 485.34423828125,
+							"width": 500.521484375,
 							"height": 72,
 							"stereotypeDisplay": "icon",
 							"nameCompartment": {
@@ -10587,7 +10587,7 @@
 								"$ref": "AAAAAAGSh0dqKMwbw4c="
 							},
 							"lineStyle": 1,
-							"points": "1863:763;1622.672119140625:764",
+							"points": "1863:763;1622.2607421875:763.9513462611607",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGSh2L46iFV6BU="
@@ -15136,7 +15136,10 @@
 									"_parent": {
 										"$ref": "AAAAAAGSh1VyMgVEnno="
 									},
-									"type": "number",
+									"type": {
+										"$ref": "AAAAAAGShzdl6QsL1Og="
+									},
+									"multiplicity": "0..*",
 									"direction": "return"
 								}
 							]

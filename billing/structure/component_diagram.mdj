@@ -555,7 +555,7 @@
 											"top": 437,
 											"width": 123.07177734375,
 											"height": 13,
-											"text": "«Application»"
+											"text": "«Infrastructure»"
 										},
 										{
 											"_type": "LabelView",
@@ -568,7 +568,7 @@
 											"top": 452,
 											"width": 123.07177734375,
 											"height": 13,
-											"text": "SoldCartRetriever"
+											"text": "SoldCartProvider"
 										},
 										{
 											"_type": "LabelView",
@@ -6788,7 +6788,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGSUy1j3HAPSa8="
 					},
-					"name": "SoldCartRetriever",
+					"name": "SoldCartProvider",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -6830,7 +6830,7 @@
 							}
 						}
 					],
-					"stereotype": "Application"
+					"stereotype": "Infrastructure"
 				},
 				{
 					"_type": "UMLComponent",
